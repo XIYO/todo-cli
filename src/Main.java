@@ -36,7 +36,7 @@ public class Main {
                 case "3":
                     //완료되면 todos에서 선택된거 하나 삭제하기
                     System.out.println("몇 번의 todo를 완료하셨나요?");
-                    String num = todoSC.nextLine(); //그 번호에 대해서 todo 삭제 //int로 처음부터 할 수 있다.
+                    String num = todoSC.nextLine(); //그 번호에 대해서 todos 삭제 //int로 처음부터 할 수 있다.
                     int completeTodoInt = Integer.parseInt(num)-1; //클래스의 메서드 대문자시작
 
                     if((completeTodoInt >= todos.size())|| (completeTodoInt < 0) ){ //부정을 먼저 쓰기
